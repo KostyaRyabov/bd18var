@@ -1,0 +1,37 @@
+H3,H4,H1 {
+  color: White;
+  text-align: center;
+}
+
+body {
+background: url("../photo/fon1.gif") no-repeat; background-size: cover;
+}
+
+form {
+position: relative;color: White;border: 5px solid rgba(255,255,255,0.7);background: rgba(64,64,64,0.6);border-radius: 10px;
+}
+
+.poster{
+    height:16px;
+    width:64px;
+    display: inline;
+    
+}
+.descr{
+    position: absolute;
+    z-index: 100;
+    display:none;
+    padding:10px;
+    background: rgba(0,48,64,0.85);
+    border-radius: 10px;
+    border: 3px solid rgba(240,240,240,1);
+    -moz-box-shadow:0 10px 10px rgba(0,0,0,0.7);
+    -webkit-box-shadow:0 10px 10px rgba(0,0,0,0.7);
+    box-shadow:-15px 30px 10px -5px rgba(0,0,0,0.7);
+    color: white;
+}
+.poster:hover .descr{
+    display:block;
+    width:300px;
+    
+}
